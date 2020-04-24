@@ -1,12 +1,18 @@
 package test;
-
 import domain.Exercise;
-
+/**
+ * Содержит реализацию метода
+ * @author Коля
+ */
 public class TestResult {
 
+    /**
+     * Вывод на экран подсчёта количества техники сколько надо списать
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        // TODO code application logic here
+        System.out.println("Кол-во списаной техники: "+ Exercise.Calculate());
     }
+    
 }
